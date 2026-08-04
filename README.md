@@ -169,7 +169,7 @@ EndSection</code></pre>
 
 <h3>Phase 7: Build Your GameOS ISO</h3>
 <p>Compile your live operating system using the official archiso template, specifying <strong>Andracompany</strong> as the publisher and <strong>GameOS</strong> as the volume label:</p>
-<pre><code>sudo mkarchiso -v -w ~/SimOS-work -o ~/SimOS-out -P "Andracompany" -L "GameOS" /usr/share/archiso/configs/releng/</code></pre>
+<pre><code>sudo mkarchiso -v -w ~/SimOS-work -o ~/SimOS-out -P "Andracompany" -L "GameOS" .</code></pre>
 
 <h3>Phase 8: Flash and Run on Your USB Flash Drive</h3>
 <ol>
