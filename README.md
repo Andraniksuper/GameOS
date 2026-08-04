@@ -89,17 +89,17 @@ ExecStart=-/sbin/agetty --autologin player --noclear %I $TERM</code></pre>
 menu_driver = "xmb"
 xmb_theme = "electric-blue"
 
-#` --- DISABLE REWIND ---
+# --- DISABLE REWIND ---
 rewind_enable = "false"
 
-#` --- DISABLE FAST-FORWARD ---
+# --- DISABLE FAST-FORWARD ---
 fastforward_ratio = "1.0"
 hold_fast_forward = "false"
 
-#` --- DISABLE CHEATS ---
+# --- DISABLE CHEATS ---
 cheats_enable = "false"
 
-#` --- LOCK DOWN RETROARCH EXIT & MENUS ---
+# --- LOCK DOWN RETROARCH EXIT & MENUS ---
 quit_lock = "true"
 input_quit_game_key = "nul"
 input_menu_toggle_btn = "nul"
@@ -180,3 +180,7 @@ EndSection</code></pre>
   </li>
   <li>Plug the flashed USB into any target PC, select it from your computer's boot menu, and launch straight into GameOS!</li>
 </ol>
+
+<hr>
+
+<p><em>Note: Wherever you see references to <code>simos</code> (such as working directories or script names) throughout this guide or project configuration files, please note that it is the old legacy name of GameOS.</em></p>
